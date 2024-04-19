@@ -70,7 +70,9 @@ public class CategorizeStrings {
                 
 
             System.out.print("\nDo you want to continue? (Y/N): ");
+            
             cont = user.nextLine();
         } while (cont.equalsIgnoreCase("Y"));
+        System.out.println("Ewan ko");
     }
 }
